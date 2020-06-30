@@ -42,5 +42,7 @@ $AIRFLOW_HOME/plugins/azure_sftp_plugin/operators/sftp_delete_file_operator.py
 
 In order to use the hook and operator use the following imports:
 
-`from airflow.hooks.azure_sftp_plugin import ADLSGen2Hook`
-`from airflow.operators.gcp_sftp_plugin import ADLSToSFTPOperator, SFTPToADLSOperator, SFTPDeleteFileOperator`
+```Python
+from airflow.hooks.azure_sftp_plugin import ADLSGen2Hook
+from airflow.operators.gcp_sftp_plugin import ADLSToSFTPOperator, SFTPToADLSOperator, SFTPDeleteFileOperator
+```
