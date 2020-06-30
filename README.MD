@@ -44,5 +44,5 @@ In order to use the hook and operator use the following imports:
 
 ```Python
 from airflow.hooks.azure_sftp_plugin import ADLSGen2Hook
-from airflow.operators.gcp_sftp_plugin import ADLSToSFTPOperator, SFTPToADLSOperator, SFTPDeleteFileOperator
+from airflow.operators.azure_sftp_plugin import ADLSToSFTPOperator, SFTPToADLSOperator, SFTPDeleteFileOperator
 ```
