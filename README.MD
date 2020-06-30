@@ -29,14 +29,16 @@ the `$AIRFLOW_HOME/plugins` folder. If the `$AIRFLOW_HOME/plugins` folder does n
 
 Once you have completed your Airflow plugins folder should look like this
 
-`$AIRFLOW_HOME/plugins/azure_sftp_plugin`
-`$AIRFLOW_HOME/plugins/azure_sftp_plugin/__init__.py`
-`$AIRFLOW_HOME/plugins/azure_sftp_plugin/hooks/__init__.py`
-`$AIRFLOW_HOME/plugins/azure_sftp_plugin/hooks/adls_gen2_hook.py`
-`$AIRFLOW_HOME/plugins/azure_sftp_plugin/operators/__init__.py`
-`$AIRFLOW_HOME/plugins/azure_sftp_plugin/operators/adls_to_sftp_operator.py`
-`$AIRFLOW_HOME/plugins/azure_sftp_plugin/operators/sftp_to_adls_operator.py`
-`$AIRFLOW_HOME/plugins/azure_sftp_plugin/operators/sftp_delete_file_operator.py`
+```
+$AIRFLOW_HOME/plugins/azure_sftp_plugin
+$AIRFLOW_HOME/plugins/azure_sftp_plugin/__init__.py
+$AIRFLOW_HOME/plugins/azure_sftp_plugin/hooks/__init__.py
+$AIRFLOW_HOME/plugins/azure_sftp_plugin/hooks/adls_gen2_hook.py
+$AIRFLOW_HOME/plugins/azure_sftp_plugin/operators/__init__.py
+$AIRFLOW_HOME/plugins/azure_sftp_plugin/operators/adls_to_sftp_operator.py
+$AIRFLOW_HOME/plugins/azure_sftp_plugin/operators/sftp_to_adls_operator.py
+$AIRFLOW_HOME/plugins/azure_sftp_plugin/operators/sftp_delete_file_operator.py
+```
 
 In order to use the hook and operator use the following imports:
 
